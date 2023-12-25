@@ -10,7 +10,7 @@ scale = 20
 width, height = screen.get_width() // scale, screen.get_height() // scale
 
 fps = 120
-speed = 0.05
+speed = 0.1
 timer = fps * speed
 
 cells = [[False for _ in range(height)] for _ in range(width)]
